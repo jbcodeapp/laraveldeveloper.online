@@ -2,6 +2,14 @@
 
 My personal over-engineering site on the cloud.
 
+## How to commit
+
+git commit --no-verify -m " "
+
+git commit -n -m " "
+
+https://commitlint.js.org/assets/commitlint.svg
+
 ## Motivation
 
 > Sharing is learning!
