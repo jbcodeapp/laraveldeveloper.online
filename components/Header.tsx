@@ -3,8 +3,8 @@ import { useTranslation } from 'next-i18next'
 import NextImage from 'next/image'
 import { useRouter } from 'next/router'
 import { headerNavLinks } from '~/data/headerNavLinks'
-import { AnalyticsLink } from './AnalyticsLink'
-import { LanguageSwitcher } from './LanguageSwitcher'
+// import { AnalyticsLink } from './AnalyticsLink'
+// import { LanguageSwitcher } from './LanguageSwitcher'
 import { Link } from './Link'
 import { MobileNavToggle } from './MobileNavToggle'
 import { ThemeSwitcher } from './ThemeSwitcher'
@@ -48,9 +48,9 @@ export function Header({ navShow, onToggleNav }: { onToggleNav: () => void; navS
             ))}
           </div>
           <div className="flex items-center gap-1">
-            <AnalyticsLink />
+            {/* <AnalyticsLink /> */}
             <ThemeSwitcher />
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <MobileNavToggle navShow={navShow} onToggleNav={onToggleNav} />
           </div>
         </div>

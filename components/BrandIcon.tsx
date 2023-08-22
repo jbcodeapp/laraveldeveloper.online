@@ -9,7 +9,7 @@ import Node from '~/icons/nodejs.svg'
 import Prisma from '~/icons/prisma.svg'
 import Railway from '~/icons/railway.svg'
 import React from '~/icons/react.svg'
-import Spotify from '~/icons/spotify.svg'
+// import Spotify from '~/icons/spotify.svg'
 import TailwindCSS from '~/icons/tailwind.svg'
 import Typescript from '~/icons/typescript.svg'
 import Umami from '~/icons/umami.svg'
@@ -31,7 +31,7 @@ export let BrandIconsMap = {
   Umami,
   Vercel,
   Railway,
-  Spotify,
+  // Spotify,
 }
 
 export function BrandIcon(props: { type: keyof typeof BrandIconsMap; className?: string }) {

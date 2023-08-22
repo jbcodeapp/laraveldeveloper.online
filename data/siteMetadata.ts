@@ -11,13 +11,13 @@ export let siteMetadata = {
   youtube: 'https://www.youtube.com/@hta218_',
   linkedin: 'https://www.linkedin.com/in/hta218/',
   locale: 'en-US',
-  analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
-  analytics: {
-    plausibleDataDomain: '',
-    simpleAnalytics: false, // true | false
-    umamiWebsiteId: '2df62ae5-7f13-455b-8e54-c15b96ff2b8b',
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
-  },
+  // analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
+  // analytics: {
+  //   plausibleDataDomain: '',
+  //   simpleAnalytics: false, // true | false
+  //   umamiWebsiteId: '2df62ae5-7f13-455b-8e54-c15b96ff2b8b',
+  //   googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+  // },
   socialAccounts: {
     github: 'hta218',
     linkedin: 'hta218',

@@ -6,14 +6,14 @@ export interface ViewApiResponse {
   }
 }
 
-export interface SpotifyNowPlayingData {
-  isPlaying: boolean
-  songUrl?: string
-  title?: string
-  artist?: string
-  album?: string
-  albumImageUrl?: string
-}
+// export interface SpotifyNowPlayingData {
+//   isPlaying: boolean
+//   songUrl?: string
+//   title?: string
+//   artist?: string
+//   album?: string
+//   albumImageUrl?: string
+// }
 
 export interface GithubRepository {
   stargazerCount: number
